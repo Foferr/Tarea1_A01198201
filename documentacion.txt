@@ -1,32 +1,32 @@
 Tarea 1 - Estructuras de Datos en JavaScript (Node.js)
-Alumno: A01198201
-Repositorio Git: 
+Alumno: Rodolfo Emiliano Salazar Rodarte
+Matricula: A01198201
+Repositorio Git: https://github.com/Foferr/Tarea1_A01198201
 
 Estructuras implementadas:
 - Stack (Pila, LIFO)
 - Queue (Cola, FIFO)
-- Hash Table (Diccionario con orden de inserción)
+- Hash Table 
 
----
 
-Descripción breve de los test-cases utilizados (archivo test.js):
+Test-cases usados (en el archivo test.js):
 
 1. STACK
-   - Se insertan los elementos "A", "B", "C" en orden.
-   - Se utiliza `peek()` para mostrar el elemento en la cima ("C").
-   - Se utiliza `pop()` para eliminar el elemento superior.
-   - Se verifica el tamaño actual de la pila con `size()`.
+   - Metí "A", "B" y "C" a la pila.
+   - Revisé el elemento de arriba con `peek()` (debería ser "C").
+   - Luego saqué el último con `pop()`.
+   - Al final, chequé cuántos quedaban con `size()`.
 
 2. QUEUE
-   - Se insertan los elementos "1", "2", "3" en orden.
-   - Se utiliza `front()` para mostrar el primer elemento ("1").
-   - Se utiliza `dequeue()` para eliminar el primer elemento.
-   - Se verifica el tamaño actual de la cola con `size()`.
+   - Metí "1", "2" y "3" a la cola.
+   - Usé `front()` para ver el primero ("1").
+   - Quité el primero con `dequeue()`.
+   - Vi cuántos quedaban usando `size()`.
 
 3. HASH TABLE
-   - Se agregan tres pares clave-valor: ("nombre", "Rodolfo"), ("edad", 25), ("ciudad", "CDMX").
-   - Se accede a un valor con `get("nombre")`.
-   - Se muestran todas las llaves con `keys()` y todas las entradas con `entries()`.
+   - Guardé tres datos: nombre, edad y ciudad.
+   - Con `get("nombre")` revisé si podía acceder a uno.
+   - También imprimí las llaves (`keys()`) y todo el contenido (`entries()`).
 
 ---
 
@@ -37,4 +37,3 @@ Instrucciones de ejecución:
 
    node test.js
 
-Este proyecto fue desarrollado como parte del curso para implementar estructuras clásicas desde cero y comprender su funcionamiento básico en JavaScript.
