@@ -1,0 +1,40 @@
+Tarea 1 - Estructuras de Datos en JavaScript (Node.js)
+Alumno: A01198201
+Repositorio Git: 
+
+Estructuras implementadas:
+- Stack (Pila, LIFO)
+- Queue (Cola, FIFO)
+- Hash Table (Diccionario con orden de inserción)
+
+---
+
+Descripción breve de los test-cases utilizados (archivo test.js):
+
+1. STACK
+   - Se insertan los elementos "A", "B", "C" en orden.
+   - Se utiliza `peek()` para mostrar el elemento en la cima ("C").
+   - Se utiliza `pop()` para eliminar el elemento superior.
+   - Se verifica el tamaño actual de la pila con `size()`.
+
+2. QUEUE
+   - Se insertan los elementos "1", "2", "3" en orden.
+   - Se utiliza `front()` para mostrar el primer elemento ("1").
+   - Se utiliza `dequeue()` para eliminar el primer elemento.
+   - Se verifica el tamaño actual de la cola con `size()`.
+
+3. HASH TABLE
+   - Se agregan tres pares clave-valor: ("nombre", "Rodolfo"), ("edad", 25), ("ciudad", "CDMX").
+   - Se accede a un valor con `get("nombre")`.
+   - Se muestran todas las llaves con `keys()` y todas las entradas con `entries()`.
+
+---
+
+Instrucciones de ejecución:
+1. Clonar el repositorio.
+2. Instalar Node.js si no se tiene.
+3. Ejecutar desde consola:
+
+   node test.js
+
+Este proyecto fue desarrollado como parte del curso para implementar estructuras clásicas desde cero y comprender su funcionamiento básico en JavaScript.
